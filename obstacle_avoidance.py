@@ -11,7 +11,9 @@ import sys
 import pickle
 import copy
 from math import radians
-from geopy.distance import vincenty 
+#from geopy.distance import vincenty 
+from geopy.distance import geodesic
+
 from math import *
 
 vehicle = connect("127.0.0.1:14550")
